@@ -48,6 +48,9 @@ Shade: #212529 (Graphite)
 */
 
 /* ______________________ GLOBAL STYLE ______________________ */
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -197,9 +200,9 @@ ul {
 
 /* __________ CTA SECTION __________ */
 
-.cta-section {
-    text-align: center;
-}
+/* .cta-section {
+
+} */
 
 .cta-card {
     text-align: center;
