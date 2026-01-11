@@ -96,6 +96,11 @@ p {
 a {
     font-size: 16px;
     text-decoration: none;
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
 }
 
 ul {
