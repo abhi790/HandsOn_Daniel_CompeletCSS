@@ -44,6 +44,8 @@ Shade: #212529 (Graphite)
 ---------------- BORDER RADIUS ----------------
 4PX / 8PX / 20PX
 
+---------------- SPACING SYSTEM ----------------
+5px / 10px / 15px / 20px / 25px / 30px / 40px / 50px / 60px / 70px / 80px / 90px / 100px / 125px / 150px / 200px / 250px / 300px / 400px / 500px /
 
 */
 
@@ -180,18 +182,35 @@ ul {
 /* ______________________ SECTIONS ______________________ */
 
 /* __________ NAVIGATION SECTION __________ */
+.navbar {
+    margin-bottom: 200px;
+}
 
 
 /* __________ HERO SECTION __________ */
 
 .hero-section {
     text-align: center;
+    margin-bottom: 300px;
+}
+
+.hero-heading {
+    margin-bottom: 10px;
+}
+
+.hero-paragraph {
+    margin-bottom: 50px;
 }
 
 /* __________ FEATURES SECTION __________ */
 
+.features-section {
+    margin-bottom: 300px;
+}
+
 .feature-main-heading{
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .feature-img {
@@ -200,9 +219,9 @@ ul {
 
 /* __________ CTA SECTION __________ */
 
-/* .cta-section {
-
-} */
+.cta-section {
+    margin-bottom: 300px;
+}
 
 .cta-card {
     text-align: center;
