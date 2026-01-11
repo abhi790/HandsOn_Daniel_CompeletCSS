@@ -63,6 +63,12 @@ body {
     color: #495057;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
 h1, h2, h3, h4, h5 {
     font-weight: 700;
     line-height: 1.2;
@@ -240,6 +246,7 @@ ul {
     width: 1000px;
     padding: 100px 200px;
     border-radius: 20px;
+    margin: 0 auto;
 }
 
 .cta-heading {
