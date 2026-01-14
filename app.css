@@ -251,6 +251,10 @@ ul {
 /* __________ NAVIGATION SECTION __________ */
 .navbar {
     height: var(--nav-height);
+    background-color: green;
+    display: flex;
+    flex-direction: row; /* default value */
+    justify-content: space-between;
 }
 
 
@@ -313,7 +317,9 @@ ul {
 /* __________ FOOTER SECTION __________ */
 
 .footer {
-    text-align: center;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
 }
 
 .social-icons {
