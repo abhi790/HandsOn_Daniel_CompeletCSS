@@ -95,7 +95,7 @@ Shade: #212529 (Graphite)
     --section-botom-margin:30rem;
 
     /* MISCELLANEOUS */
-    --nav-height: 300px; /*Update in flexbox topic */
+    --nav-height: 100px; /*Update in flexbox topic */
 }
 
 * {
@@ -120,7 +120,6 @@ body {
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
-    background-color: aqua;
 }
 
 h1, h2, h3, h4, h5 {
@@ -251,11 +250,15 @@ ul {
 /* __________ NAVIGATION SECTION __________ */
 .navbar {
     height: var(--nav-height);
-    background-color: green;
     display: flex;
     flex-direction: row; /* default value */
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-btn-container {
+    display: flex;
+    gap: 2rem;
 }
 
 
