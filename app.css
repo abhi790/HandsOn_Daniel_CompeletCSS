@@ -56,6 +56,11 @@ Shade: #212529 (Graphite)
     margin: 0;
 }
 
+html {
+    /* The default font size of browser is 16px, we are making it 10px, but using different method, 10/16=0.625*100=62.5%*/
+    font-size: 62.5%;  
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -79,31 +84,31 @@ h1, h2, h3, h4, h5 {
 
 
 h1 {
-    font-size: 62px;
+    font-size: 6.2rem;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 h4 {
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 h5 {
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 p {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 a {
-    font-size: 16px;
+    font-size: 1.6rem;
     text-decoration: none;
     display: inline-block;
 }
@@ -117,16 +122,16 @@ ul {
 }
 
 .small-text {
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 /* ______________________ COMPONENTS ______________________ */
 
 .btn {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 1.5rem 3rem;
     border-radius: 8px;
 }
 
@@ -168,7 +173,7 @@ ul {
 
 .highlight {
     color: #ffffff;
-    padding: 5px 10px;
+    padding: .5rem 1rem;
     border-radius: 4px;
 }
 
@@ -197,7 +202,7 @@ ul {
 
 /* __________ NAVIGATION SECTION __________ */
 .navbar {
-    margin-bottom: 200px;
+    margin-bottom: 20rem;
 }
 
 
@@ -205,30 +210,30 @@ ul {
 
 .hero-section {
     text-align: center;
-    margin-bottom: 300px;
+    margin-bottom: 30rem;
 }
 
 .hero-heading {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .hero-paragraph {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 /* __________ FEATURES SECTION __________ */
 
 .features-section {
-    margin-bottom: 300px;
+    margin-bottom: 30rem;
 }
 
 .feature-main-heading{
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 
 .feature-heading {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .feature-img {
@@ -239,20 +244,20 @@ ul {
 /* __________ CTA SECTION __________ */
 
 .cta-section {
-    margin-bottom: 300px;
+    margin-bottom: 30rem;
 }
 
 .cta-card {
     text-align: center;
     background-color: #339af0;
     max-width: 1000px;
-    padding: 100px 200px;
+    padding: 10rem 20rem;
     border-radius: 20px;
     margin: 0 auto;
 }
 
 .cta-heading {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 /* __________ FOOTER SECTION __________ */
