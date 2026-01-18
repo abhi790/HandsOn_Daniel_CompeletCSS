@@ -310,6 +310,18 @@ ul {
   margin-bottom: 2rem;
 }
 
+.features-grid-container {
+  display: grid;
+  /* background-color: aqua; */
+  grid-template-columns: 1fr 1fr;
+  row-gap: 15rem;
+  column-gap: 5rem;
+  /* center align along row axis*/
+  justify-items: center;
+  /* center align along column axis*/
+  align-items: center;
+}
+
 .feature-img {
   max-width: 400px;
   width: 100%;
