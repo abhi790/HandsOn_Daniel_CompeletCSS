@@ -163,6 +163,13 @@ a {
   display: inline-block;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--grey-base);
+}
+
 span {
   display: inline-block;
 }
@@ -351,12 +358,13 @@ ul {
 
 .cta-heading {
   margin-bottom: 3rem;
+  color: var(--white);
 }
 
 /* __________ FOOTER SECTION __________ */
 
 .footer {
-  background-color: grey;
+  /* background-color: grey; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -374,4 +382,8 @@ ul {
 }
 .social-icons {
   width: 20px;
+}
+
+.heart-icon {
+  color: var(--secondary-base);
 }
